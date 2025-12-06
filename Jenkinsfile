@@ -21,8 +21,7 @@ pipeline {
                 }
                 stage ('Build') {
                         steps {
-                                echo 'test triger'
-                                echo 'Build stage completed (demo)'
+                                sh 'docker build -t mohamed2003/node-ci:1.0 .'
                         }
                 }
         }
