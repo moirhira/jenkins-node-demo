@@ -21,7 +21,7 @@ pipeline {
                 }
                 stage ('Build') {
                         steps {
-                                echo 'test truger'
+                                echo 'test triger'
                                 echo 'Build stage completed (demo)'
                         }
                 }
