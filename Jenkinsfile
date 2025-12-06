@@ -1,7 +1,7 @@
 pipeline {
         agent any
         tools {
-                node 'node-20'
+                nodejs 'node-20'
         }
         stages {
                 stage ('Clone') {
